@@ -1,0 +1,111 @@
+@media only screen and (max-width: 1200px) {
+  .date-countdown {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .main-area {
+    position: relative;
+    height: 200vh;
+  }
+  .right-section {
+    float: none;
+    width: 100%;
+    height: 50%;
+  }
+  .right-section .main-content {
+    padding: 40px 0;
+  }
+  .main-content .email-input-area {
+    width: 100%;
+  }
+  .main-content .email-input-area .email-input {
+    padding: 0 115px 0 20px;
+  }
+  .main-content .email-input-area .submit-btn {
+    width: 100px;
+  }
+  .right-section .footer-icons > li > a > i {
+    height: 30px;
+    line-height: 28px;
+    width: 30px;
+  }
+  .left-section {
+    position: static;
+    width: 100%;
+    height: 50%;
+  }
+
+  .date-countdown {
+    width: 100%;
+  }
+
+  .date-countdown .time_circles > div > h4 {
+    font-size: 0.7em !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  p {
+    line-height: 1.4;
+  }
+
+  h1 {
+    font-size: 2.8em;
+    line-height: 1;
+  }
+  h2 {
+    font-size: 2.2em;
+    line-height: 1.1;
+  }
+  h3 {
+    font-size: 1.8em;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  body {
+    font-size: 12px;
+  }
+
+  #normal-countdown .time-sec {
+    height: 100px;
+    width: 100px;
+    margin: 5%;
+  }
+
+  #normal-countdown .time-sec .main-time {
+    line-height: 80px;
+  }
+
+  .right-section {
+    padding: 0 30px;
+  }
+}
+
+@media only screen and (max-width: 359px) {
+}
+
+@media only screen and (max-width: 290px) {
+}
+
+@media only screen and (min-width: 900px) {
+  .left-section {
+    clip-path: polygon(0 0, 90% 0, 100% 50vh, 90% 100vh, 0 100vh);
+    /* position: relative; */
+  }
+  .right-section {
+    clip-path: polygon(0 0, 100% 0, 100% 100vh, 0% 100vh);
+    /* position: relative; */
+  }
+}
+
+.left-section {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 0, 0.65),
+      rgba(255, 111, 0, 0.65)
+    ),
+    url(./../images/bkg.jpg);
+}
